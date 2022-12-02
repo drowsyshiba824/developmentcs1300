@@ -1,0 +1,64 @@
+.item-container {
+    background-color: #faebd7;
+    border-radius: 12px;
+    border: 1.5px solid black;
+}
+
+.item-image{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.item-title{
+    font-weight: bold;
+}
+
+.item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item-price{
+    display: flex;
+}
+
+.item-description{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.add-button{
+    background-color: #4BA749; 
+    border: none;
+    color: white;
+    padding: 10px 80px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.remove-button{
+    background-color: #db6732;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+

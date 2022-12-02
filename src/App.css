@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+.App-header {
+  padding: 16px;
+  border-bottom: 1.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 1000px;
+  max-width: 1000px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.title {
+  font-size: 20px;
+  margin: 0;
+}
+
+.sidebar-container {
+  flex-shrink: 0;
+  width: 200px;
+}
